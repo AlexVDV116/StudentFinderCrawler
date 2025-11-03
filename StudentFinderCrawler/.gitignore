@@ -1,0 +1,82 @@
+# Build / output
+/bin/
+/obj/
+/out/
+/publish/
+/*.exe
+/*.dll
+/*.pdb
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+*.DotSettings.user
+/.Rider/
+*.sublime-project
+*.sublime-workspace
+
+# Visual Studio
+.vs/
+*.user
+*.userosscache
+*.suo
+*.cache
+*.ilk
+*.log
+
+# NuGet / packages
+/packages/
+/.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Node / front-end
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# Logs, test results, coverage
+*.log
+TestResults/
+test-results/
+coverage/
+coverage*.xml
+*.lcov
+*.trx
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# IDE configs / workspace
+.vscode/
+*.code-workspace
+
+# Generated reports (crawler output)
+reports/
+student_public_urls.csv
+student_public_urls.md
+
+# Package manager / lock / local
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Secrets / local settings
+secrets.json
+.env
+.env.*.local
+
+# Misc
+*.db
+*.sqlite
