@@ -6,18 +6,18 @@ StudentFinderCrawler is a C# web crawler designed to scan a school domain and it
 
 ## Table of Contents
 
-1. Overview
-2. Project Structure
-3. Crawler Workflow
-4. Classes
+1. [Overview](#overview)
+2. [Project Structure](#project-structure)
+3. [Crawler Workflow](#crawler-workflow)
+4. [Classes](#classes)
     - StudentFinderCrawler
     - StudentRecord
     - CrawlPostProcessor
     - NameValidator
-5. Name Validation
-6. Subdomains and Redirects
-7. Reports
-8. Usage
+5. [Name Validation](#name-validation)
+6. [Subdomains and Redirects](#subdomain-and-redirects)
+7. [Reports](#reports)
+8. [Usage](#usage)
 
 ---
 
